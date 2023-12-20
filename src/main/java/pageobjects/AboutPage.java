@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AccountPage {
+public class AboutPage {
 	
 	WebDriver driver;
 	
-	public AccountPage(WebDriver driver) {
+	public AboutPage(WebDriver driver) {
 		
 		this.driver = driver;
 		

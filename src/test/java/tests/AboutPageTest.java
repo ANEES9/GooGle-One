@@ -17,7 +17,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import base.Base;
-import pageobjects.AccountPage;
+import pageobjects.AboutPage;
 
 public class AboutPageTest extends Base {
 
