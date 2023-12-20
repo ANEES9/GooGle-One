@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T18:18:41 IST" name="Suite" finished-at="2023-12-20T18:19:57 IST" duration-ms="75232">
+    <groups>
+    </groups>
+    <test started-at="2023-12-20T18:18:41 IST" name="Test" finished-at="2023-12-20T18:19:57 IST" duration-ms="75232">
+      <class name="tests.BenefitsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BenefitsPageTest@2657d4dd]" started-at="2023-12-20T18:19:51 IST" name="setup" finished-at="2023-12-20T18:19:56 IST" duration-ms="5438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Benefits_landingPage()[pri:1, instance:tests.BenefitsPageTest@2657d4dd]" started-at="2023-12-20T18:19:56 IST" name="Verify_Benefits_landingPage" finished-at="2023-12-20T18:19:56 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Benefits_landingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BenefitsPageTest@2657d4dd]" started-at="2023-12-20T18:19:56 IST" name="tearDown" finished-at="2023-12-20T18:19:57 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BenefitsPageTest -->
+      <class name="tests.AboutPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AboutPageTest@57bc27f5]" started-at="2023-12-20T18:18:41 IST" name="setup" finished-at="2023-12-20T18:18:51 IST" duration-ms="9342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_About_landingPage()[pri:1, instance:tests.AboutPageTest@57bc27f5]" started-at="2023-12-20T18:18:51 IST" name="Verify_About_landingPage" finished-at="2023-12-20T18:18:51 IST" duration-ms="48" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Page title mismatch expected [Google On - Cloud Storage, Automatic Phone Backup, VPN and more] but found [Google One - Cloud Storage, Automatic Phone Backup, VPN and more]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Page title mismatch expected [Google On - Cloud Storage, Automatic Phone Backup, VPN and more] but found [Google One - Cloud Storage, Automatic Phone Backup, VPN and more]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.AboutPageTest.Verify_About_landingPage(AboutPageTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_About_landingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AboutPageTest@57bc27f5]" started-at="2023-12-20T18:18:51 IST" name="tearDown" finished-at="2023-12-20T18:18:52 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AboutPageTest@57bc27f5]" started-at="2023-12-20T18:18:52 IST" name="setup" finished-at="2023-12-20T18:18:59 IST" duration-ms="7488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_About_MakelifetimeOfMemories_Section()[pri:2, instance:tests.AboutPageTest@57bc27f5]" started-at="2023-12-20T18:18:59 IST" name="Verify_About_MakelifetimeOfMemories_Section" finished-at="2023-12-20T18:19:21 IST" duration-ms="21796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_About_MakelifetimeOfMemories_Section -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AboutPageTest@57bc27f5]" started-at="2023-12-20T18:19:21 IST" name="tearDown" finished-at="2023-12-20T18:19:21 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AboutPageTest -->
+      <class name="tests.PlansPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PlansPageTest@4f0f2942]" started-at="2023-12-20T18:19:21 IST" name="setup" finished-at="2023-12-20T18:19:24 IST" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Plans_landingPage()[pri:1, instance:tests.PlansPageTest@4f0f2942]" started-at="2023-12-20T18:19:24 IST" name="Verify_Plans_landingPage" finished-at="2023-12-20T18:19:28 IST" duration-ms="4111" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Page title mismatch expected [Plans & Pricing - Google One] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Page title mismatch expected [Plans & Pricing - Google One] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.PlansPageTest.Verify_Plans_landingPage(PlansPageTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Plans_landingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PlansPageTest@4f0f2942]" started-at="2023-12-20T18:19:28 IST" name="tearDown" finished-at="2023-12-20T18:19:28 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PlansPageTest@4f0f2942]" started-at="2023-12-20T18:19:28 IST" name="setup" finished-at="2023-12-20T18:19:35 IST" duration-ms="6675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Plans_ManageYourPlan_Section()[pri:2, instance:tests.PlansPageTest@4f0f2942]" started-at="2023-12-20T18:19:35 IST" name="Verify_Plans_ManageYourPlan_Section" finished-at="2023-12-20T18:19:50 IST" duration-ms="15048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Plans_ManageYourPlan_Section -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PlansPageTest@4f0f2942]" started-at="2023-12-20T18:19:50 IST" name="tearDown" finished-at="2023-12-20T18:19:51 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PlansPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
